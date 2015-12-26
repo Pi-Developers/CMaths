@@ -1,2 +1,2 @@
 # Cmaths
-A project for applying maths to programming
+Maths made easier for developer and user
