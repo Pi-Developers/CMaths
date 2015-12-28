@@ -3,7 +3,7 @@
 int main(int argc, char** argv){
 
     int x;
-
+ 
     while(1) {
 
         printf("\n             ~~~~~~~~~~~~~~~~~~~~~~~~ \n        Welcome to CMaths (Ultimate C Maths App)\n\n         "
