@@ -6,7 +6,8 @@ int main(int argc, char** argv){
 
     while(1) {
 
-        printf("\n             ~~~~~~~~~~~~~~~~~~~~~~~~ \n        Welcome to CMaths (Ultimate C Maths App)\n\n             ~~~~~~~~~~~~~~~~~~~~~~~~");
+        printf("\n             ~~~~~~~~~~~~~~~~~~~~~~~~ \n        Welcome to CMaths (Ultimate C Maths App)\n\n         "
+               "    ~~~~~~~~~~~~~~~~~~~~~~~~");
         printf("\n     Would you like to do..?\n\n\t");
         printf("1-check even or odd      2-check prime number or not\n\t");
         printf("3-Check Divisbility      4-Check golden ratio\n\t");
@@ -15,9 +16,8 @@ int main(int argc, char** argv){
         printf("9-Decode To text         10-Compute Pascal's Triangle\n\t");
         printf("11-Solve a quadratic equation     12-Logarithms Calculator\n\n");
         printf("Choose an option : \n\n>>");
-        
-        scanf("%d", &x);
 
+        scanf("%d", &x);
 
         switch(x) {
 
@@ -37,58 +37,71 @@ int main(int argc, char** argv){
 
         // Check Divisbility
         case 3:
-        
+
             checkDivisbility();
 
             break;
 
         // Check golden ratio
         case 4:
-        
-        
-            checkGoldenRatio();
 
+            checkGoldenRatio();
 
             break;
 
         // Compute Factorial
         case 5:
 
+            ComputeFactorial();
 
             break;
 
         // Compute Fibonacci series
         case 6:
 
+            ComputeFibonacci();
+
             break;
 
         // Compute Pi
         case 7:
+
+            ComputePi();
 
             break;
 
         // Encode Text
         case 8:
 
+            EncodeText();
+
             break;
 
         // Decode To text
         case 9:
+
+            DecodeTotext();
 
             break;
 
         // Compute Pascal's Triangle
         case 10:
 
+            ComputePascal();
+
             break;
 
         // Solve a quadratic equation
         case 11:
 
+            QuadraticEquation();
+
             break;
 
         // Logarithms Calculator
         case 12:
+
+            Logarithm();
 
             break;
         }
@@ -97,30 +110,40 @@ int main(int argc, char** argv){
     return 0;
 }
 
-
-/////------------------------------------------------------------------/////
+/////--------------------------Functions-----------------------------------/////
 
 void checkOddOrEven(){
-  
-  
 }
-
 
 void checkPrime(){
- 
-   
 }
-
 
 void checkDivisbility(){
-    
-    
 }
 
-
-
 void checkGoldenRatio(){
-    
-    
-    
+}
+
+void ComputeFactorial(){
+}
+
+void ComputeFibonacci(){
+}
+
+void ComputePi(){
+}
+
+void EncodeText(){
+}
+
+void DecodeTotext(){
+}
+
+void ComputePascal(){
+}
+
+void QuadraticEquation(){
+}
+
+void Logarithm(){
 }
