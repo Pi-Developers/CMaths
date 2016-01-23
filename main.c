@@ -1,4 +1,5 @@
 #include <stdio.h>
+include "connect.h"
 
 int main(int argc, char** argv){
 
@@ -110,40 +111,3 @@ int main(int argc, char** argv){
     return 0;
 }
 
-/////--------------------------Functions-----------------------------------/////
-
-void checkOddOrEven(){
-}
-
-void checkPrime(){
-}
-
-void checkDivisbility(){
-}
-
-void checkGoldenRatio(){
-}
-
-void ComputeFactorial(){
-}
-
-void ComputeFibonacci(){
-}
-
-void ComputePi(){
-}
-
-void EncodeText(){
-}
-
-void DecodeTotext(){
-}
-
-void ComputePascal(){
-}
-
-void QuadraticEquation(){
-}
-
-void Logarithm(){
-}
