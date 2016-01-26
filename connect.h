@@ -1,4 +1,10 @@
-include "main.c"
+
+/**
+ * @brief 
+ * 
+ * Header Containing all the functions
+ * 
+ */
 
 void checkOddOrEven();
 void checkPrime();
@@ -7,7 +13,7 @@ void checkGoldenRatio();
 void ComputeFactorial();
 void ComputeFibonacci();
 void ComputePi();
-void EncodeText(); 
+void EncodeText();
 void DecodeTotext();
 void ComputePascal();
 void QuadraticEquation();
