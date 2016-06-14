@@ -5,20 +5,8 @@ int main(int argc, char** argv){
 
     int choice,i,output;
 
-
-
-
-
-
-
     while(1) {
 
-        
-        
-
-      
-
-        
         printf("\n             ~~~~~~~~~~~~~~~~~~~~~~~~ \n        Welcome to CMaths (Ultimate C Maths App)\n\n         ");
         printf("    ~~~~~~~~~~~~~~~~~~~~~~~~");
         printf("\n     Would you like to do..?\n\n\t");
@@ -28,7 +16,6 @@ int main(int argc, char** argv){
         printf("7-Compute Pi             8-Solve a quadratic equation \n\t");
         printf("9-Logarithms Calculator       10-Compute Pascal's Triangle\n\t");
         printf("Choose an option :\n\n>>");
-
 
         scanf("%d", &choice);
 
